@@ -1,0 +1,92 @@
+[
+    {
+        "CourseID": "EdTech 501",
+        "Course Name": "Introduction to Educational Technology",
+        "Credits": "3",
+        "Term": "Fall 2018",
+        "Grade": "A+"
+    
+    },
+    {
+        "CourseID": "EdTech 502",
+        "CourseName": "Creating Educational Websites",
+        "Credits": "3",
+        "Term": "Fall 2018",
+        "Grade": "A"
+    
+    },
+
+    {
+        "CourseID": "EdTech 503",
+        "CourseName": "Instructional Design",
+        "Credits": "3",
+        "Term": "Spring 2019",
+        "Grade": "A+"
+    
+    },
+
+    {
+        "CourseID": "EdTech 551",
+        "CourseName": "Technical and Grant Writing",
+        "Credits": "3",
+        "Term": "Spring 2019",
+        "Grade": "A+"
+    
+    },
+    {
+        "CourseID": "EdTech 504",
+        "CourseName": "Theoretical Foundations of Educational Technology",
+        "Credits": "3",
+        "Term": "Summer 2019",
+        "Grade": "A"
+    
+    },
+    {
+        "CourseID": "EdTech 505",
+        "CourseName": "Evaluation for Educational Technologists",
+        "Credits": "3",
+        "Term": "Fall 2019",
+        "Grade": "A+"
+    
+    },
+    {
+        "CourseID": "EdTech 534",
+        "CourseName": "Mobile App Design for Teaching and Learning",
+        "Credits": "3",
+        "Term": "Fall 2019",
+        "Grade": "A+"
+    
+    },
+    {
+        "CourseID": "EdTech 552",
+        "CourseName": "Introduction to Network Administration",
+        "Credits": "3",
+        "Term": "Fall 2019",
+        "Grade": "A+"
+    
+    },
+    {
+        "CourseID": "EdTech 511",
+        "CourseName": "Interactive Courseware Development",
+        "Credits": "3",
+        "Term": "Spring 2020",
+        "Grade": "A+"
+    
+    },
+    {
+        "CourseID": "EdTech 554",
+        "CourseName": "Managing Technology Integration in Schools",
+        "Credits": "3",
+        "Term": "Spring 2020",
+        "Grade": "A"
+    
+    },
+    {
+        "CourseID": "EdTech 592",
+        "CourseName": "Portfolio",
+        "Credits": "3",
+        "Term": "Summer 2020",
+        "Grade": "P *Portfolio Course is Pass/Fail"
+    }
+
+]

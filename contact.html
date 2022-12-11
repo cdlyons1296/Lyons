@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Christopher Lyons Portfolio</title>
+    <meta charset="UTF-8"> 
+    <script src="script.js"></script>  
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<header>
+    <input type="checkbox" class ="checkbox" id="toggle">
+<nav>
+
+<a class="navbar-brand" href="index.html">Christopher Lyons</a>
+<label class="navbar-toggler" for="toggle">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+</label>
+<ul class="nav-list">
+    <li class="nav-item">
+        <a href ="index.html" class="nav-link">Home</a>
+    </li>
+    <li class="nav-item">
+        <a href="resume.html" class="nav-link">Resume</a>
+    </li>
+    <li class="nav-item">
+        <a href="teaching.html" class="nav-link">Teaching</a>
+    </li>
+    <li class="nav-item">
+        <a href="edtech.html" class="nav-link">EdTech</a>
+    </li>
+    <li class="nav-item">
+        <a href="mscis.html" class="nav-link">MSCIS</a>
+    </li>
+    <li class="nav-item-active">
+        <a href ="contact.html" class="nav-link">Contact</a>
+    </li>
+
+
+</ul>
+
+</nav>
+</header>
+<div class="top-container"><h1>Contact Me</h1>
+</div>
+<h2 style="text-align:center; margin-top: 25px;">Please use the form to send me a message. I am happy to discuss anything education, technology or travel realated. </h2>
+<div class="content-container">
+   
+<div class = "sixty-container"> 
+   
+     <form class ="contact-form" action="https://formsubmit.co/chrislyonsku@gmail.com" method="post"  novalidate onsubmit="return validateForm();">
+         <h2>Contact Form</h2>
+            <h3 id="invalid-input"></h3>
+        
+            <div class ="contact-row">
+                <input class = "contact-box" type="text" name="name" id="name"   placeholder = "Your Name">
+            </div>
+            <div class ="contact-row">
+                <input class = "contact-box" type="email" name="email" id="email"   placeholder = "Your Emal Address">
+            </div>
+       
+    
+           <div class="message">
+             <textarea class ="contact-box" placeholder="Your Message" id ="text-area" name="message" rows="15" ></textarea>
+            </div>
+
+           <div class="submit-contact">
+            <button type="submit" class="submit-button">Send Message</button>
+           </div>
+     </form>
+</div>
+   <div class = "forty-container"> 
+
+    <img src="images/Mountains.jpg" alt = "A picture of me in Virginia.">
+    
+    <p>
+        Feel free to connect with me on LinkedIn: 
+    </p>
+        <ul class="ul-links">
+            <li>
+                <a href="https://www.linkedin.com/in/chris-lyons-027b34232/" target="_blank">My LinkedIn Profile</a>
+            </li>
+        </ul>
+   
+   </div>
+    
+
+   
+</div>
+
+<footer>	&#169; Christopher Lyons 2022 </footer>
+</body>

@@ -1,0 +1,76 @@
+[
+    {
+        "CourseID": "MET CS 546",
+        "CourseName": "Introduction to Probability and Statistics",
+        "Credits": "4",
+        "Term": "Fall 2021",
+        "Grade": "A"
+    
+    },
+    {
+        "CourseID": "MET CS 520",
+        "CourseName": "Information Structures with Java",
+        "Credits": "4",
+        "Term": "Fall 2021",
+        "Grade": "A-"
+    
+    },
+    {
+        "CourseID": "MET CS 625",
+        "CourseName": "Business Data Communication and Networks",
+        "Credits": "4",
+        "Term": "Spring 2022",
+        "Grade": "A-"
+    
+    },
+    {
+        "CourseID": "MET CS 669",
+        "CourseName": "Database Design and Implementation for Business",
+        "Credits": "4",
+        "Term": "Spring 2022",
+        "Grade": "A-"
+    
+    },
+
+    {
+        "CourseID": "MET CS 682",
+        "CourseName": "Information Systems Analysis and Design",
+        "Credits": "4",
+        "Term": "Fall 2022",
+        "Grade": "A"
+    
+    },
+    {
+        "CourseID": "MET CS 601",
+        "CourseName": "Web Application Development",
+        "Credits": "4",
+        "Term": "Fall 2022",
+        "Grade": "TBD"
+    
+    },
+    {
+        "CourseID": "MET CS 602",
+        "CourseName": "Server-Side Web Development",
+        "Credits": "4",
+        "Term": "Spring 2023",
+        "Grade": "TBD"
+    
+    },
+    {
+        "CourseID": "MET CS 701",
+        "CourseName": "Rich Internet Application Development",
+        "Credits": "4",
+        "Term": "Spring 2023",
+        "Grade": "TBD"
+    
+    },
+
+    {
+        "CourseID": "MET CS 782",
+        "CourseName": "IT Strategy and Management",
+        "Credits": "4",
+        "Term": "Summer 2023",
+        "Grade": "TBD"
+    }
+
+]

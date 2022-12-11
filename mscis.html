@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Christopher Lyons Portfolio</title>
+    <meta charset="UTF-8"> 
+    <script src="script.js"></script>  
+    <link href="style.css" rel="stylesheet">
+    
+</head>
+
+<body onload="getBUCourses()">
+    
+    <input type="checkbox" id="toggle">
+<nav>
+
+
+<a class="navbar-brand" href="index.html">Christopher Lyons</a>
+<label class="navbar-toggler" for="toggle">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+</label>
+<ul class="nav-list">
+    <li class="nav-item">
+        <a href ="index.html" class="nav-link">Home</a>
+    </li>
+    <li class="nav-item">
+        <a href="resume.html" class="nav-link">Resume</a>
+    </li>
+    <li class="nav-item">
+        <a href="teaching.html" class="nav-link">Teaching</a>
+    </li>
+    <li class="nav-item">
+        <a href="edtech.html" class="nav-link">EdTech</a>
+    </li>
+    <li class="nav-item-active">
+        <a href="mscis.html" class="nav-link">MSCIS</a>
+    </li>
+    <li class="nav-item">
+        <a href ="contact.html" class="nav-link">Contact</a>
+    </li>
+
+
+</ul>
+
+
+</nav>
+
+<div class="top-container"><h1>MS Computer Information Systems</h1>
+</div> 
+<div class="content-container">
+   
+<div class = "sixty-container"> 
+   <p>I am currently completing a Master of Science in Computer Information Systems, with a concentration in Web Application Development. I am expecting to graduate in 
+    August 2023. After completing my Master of Educational Technology program, I decided I wanted to enhance my technical knowledge and learn about programming and advanced topics in 
+    information technology. I was living in Cambodia at the time so I needed to find an online program that would accept people with a limited technical background. I found this program 
+    at Boston University and applied. I was exstatic to recieve conditional admission. I just needed to successfully complete Introduction to Computer Information Systems.  
+    This course taught me the basic concepts of information systems and introduced me to programmin with Java. After my successful completion of the course, I was fully admitted into the BU MSCIS program.   
+</p>
+<p> 
+In CS 546 I learned primary concepts of statistics and probability. This course provided knowledge of the mathematical concepts necessary to be successful in the program. In CS 520 I learned about
+information structures, and gained more experience programming with Java. In CS 625, I gained a deeper undertanding of the fundamental of networking as well a the different technologies and methods used to 
+transfer data. In CS 669 I designed and built a database to store course infomation related to the online program I support at work. I gained a deeper knowledge of designing and building a database using a relational
+database management system and improved my SQL programming skills. I learned about planning, and developing an application in CS 682. I created classe diagrams, data flow chart, sequence diagrams, and activity diagrams in 
+developing the application.</p>
+<p>
+    I am currently completing CS 601, where I am imporving my HTML and CSS skills, and gaining a sold foundation in building applications with Javascript. This is the first course in my concentration,
+    and I am looking forward to learnin more about building applications in future courses. I chose this concentration because I would like to build educational applications in the future. 
+</p>
+<p>
+    I have already learned a lot since I started this program. I am looking forward to continue to learn over the next 8 months as I complete my degree. I hope to use the skills that I gain in this program 
+    to secure a more technical job in education, where I am designing applications for learning. 
+</p>
+   
+     
+</div>
+   <div class = "forty-container"> 
+    <p><img src="images/BU_Logo.png" alt = "Boston University Logo"></p>
+    <h2>Projects</h2>
+    <h3>Database Design Project</h3>
+    <i>I designed a database that will include information about all of the online
+        courses, instructors and students studying in an online program at SAIS.
+    </i>
+    <ul class ="ul-links">
+        <li><a href = "https://docs.google.com/document/d/1atN0eZFQwXJIBUCk41kSFo8k-OlARTWz/edit?usp=sharing&ouid=113086187068700874715&rtpof=true&sd=true" target="_blank"> Database Design Project</a></li>
+    </ul>
+    <h3>Baby Animals with Vue.js</h3>
+    <i>I used Vue.js to create a page that teaches young kids about baby animals. 
+    </i>
+    <ul class ="ul-links">
+        <li><a href = "https://golden-elf-7522d9.netlify.app/" target="_blank"> Baby Animals webpage</a></li>
+    </ul>
+    
+    
+    <p>
+        
+    </p>
+
+   </div>
+    
+
+     
+</div>
+
+
+
+<div class="degree-table">
+    <h2>MSCIS Course List</h2>
+    <table>
+      <thead>
+        <tr>
+            <th>Course ID</th>
+            <th>Course Name</th>
+            <th>Credits</th>
+            <th>Term</th>
+            <th>Grade</th>
+        </tr>
+      </thead>
+      <tbody id="course-table">
+
+      </tbody>
+
+    </table>
+   
+   
+</div>
+<footer>	&#169; Christopher Lyons 2022 </footer>
+</body>
