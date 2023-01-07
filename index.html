@@ -48,8 +48,8 @@
 <div class="cont-container">
 <div class = "sixty-container">
     <p>
-        I am currently splitting my time between Round Hill, Virginia and Phnom Penh, Cambodia. I am currently working as an instructional technologist at Johns Hopkins University
-        School of Advanced International Studies. Luckily, I am able to do this job remotely. Prior to this job, I spent the previous eight years living and working in Southeast Asia.
+        I am currently living in Round Hill, Virginia and working as an instructional technologist at Johns Hopkins University
+        School of Advanced International Studies. Prior to this job, I spent the previous eight years living and working in Southeast Asia.
         I lived in Phnom Penh for about 5 years, Cebu, Philippines for about 2 years and Nonthaburi, Thailand for a little less than a year. I held various roles in education while living and
         working abroad. 
       </p>
@@ -62,7 +62,7 @@
     <p>
         I met my partner, Meizel, in 2013 when I moved to Phnom Penh. She had recently moved to Cambodia from the Philippines. We have two children, David and Jean. David is seven years old and loves
         swimming and video games. Jean is about one and a half years old and loves swimming. We love to travel as a family, although we haven't been able to much for the past year and a half. My mother got sick
-        so I had to move back to the US to help her. I applied for Meizel's visa in August 2021, but we are still waiting. Hence, why I am splitting my time between the US and Cambodia. 
+        so I had to move back to the US to help her. I applied for Meizel's visa in August 2021, but we are still waiting. 
     </p>
     <p>
         Our family loves to go to the beach and spend as much time as we can in the water. We have travelled to several different beaches in Cambodia, Philippines and Thailand. Of all the places that we have visited
@@ -75,11 +75,11 @@
 <div class = "forty-container"> 
     <div id ="app">
 
-         <img :src ="fampic">
+         <img :src ="fampic" :alt ="pictext">
          <p> {{pictext}}</p>
          <div class ="arrows">
-            <img class="arrow" alt="back arrow" :src= "back" @click="backImage()">
-            <img class="arrow"  alt="forward arrow" :src= "forward" @click="changeImage()">
+            <img class="arrow" :src= "back" alt="back arrow"  @click="backImage()">
+            <img class="arrow" :src= "forward" alt="forward arrow"  @click="changeImage()">
         </div>
 
     </div>
